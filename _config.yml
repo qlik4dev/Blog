@@ -26,7 +26,7 @@ author:
 twitter_username: AlbertGuito
 github_username:
 logo: # path of site logo, e.g. "/assets/images/logo.png"
-search: # true, false (default)
+search: true # true, false (default)
 search_full_content: false # true, false (default)
 search_provider: # lunr (default), algolia
 algolia:
@@ -34,7 +34,9 @@ algolia:
   index_name: # YOUR_INDEX_NAME
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
-
+disqus:
+    shortname: qlik4dev
+   
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-basically-basic
